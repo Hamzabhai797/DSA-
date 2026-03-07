@@ -1,0 +1,72 @@
+DSA (Data Structure Algorithm)
+data = Information
+Structure = (Array, Queu, stack ETC)
+Algorithm = Step by step instruction
+
+Dominating factor (dominating mean kisi bhi equation ka highest power) ya time complexity nikalny ke liay kaam aata hay
+
+	Type of Analysis/Asymptotic Notation
+1: Best Case = Jab algorithm sab se kam time leta hai.                        denote  Ω (Omega) notation
+2: Average Case = Jab algorithm normal situation mein jitna time leta hai.    denote Θ (Theta) notation
+3: Worst Case = Jab algorithm sab se zyada time leta hai.                     denote O (Big O) notation
+
+	Constant Time comlexity  -> denote  O(1)
+kahi pa loop na lagy ya kahi pa code bar bar execute ho raha hoo ya kahi pa recursion na lagy is type ke program constant time lety hay
+Example: 
+	x = 5
+	print(x)
+
+	Linear Time comlexity -> {y = 2n + 10(This is a linear equation)} -> denote O(n)
+apki program ki equation agr linear bany tab apki time complexity order of (n) ho ge ya linear time le raha hay
+Example:
+	n = 5                   constant time
+	for i in range(0, n)    ya variable pa depend kary ga ke kitny time chaly ga yani n time
+	print(i)                first line  1 unit 2nd line n unit 3rd line n unit  yani equation bani humary pass (2n + 1) <- linear equation
+
+	Quadratic Time Complexity  -> denote O(nsquare)
+program ma agr nested loop aajaye ya is tarha ka code aajaye
+Example:
+	n = 5                      
+	m = 10
+	print(n + m)
+	for i in range(0, n)
+	   for j in range(0, m)
+	      print('hello')
+Aik loop khatm hony ke ad agr dosra loop start hoga to wo plus hoga or aik loop ke undr jab dosra loop aei ga(yani nested loop) to multiply hoga 
+is ma loops ma undr wala loop 50 time chaly ga kyun ke first loop aik bar chalny ke bad under wala 10 time chaly ga  = Equation -> 3 + nsquare
+
+	Cubical Time Comlexity  -> denote O(ncube)
+program ma agr double nested aajaye ys is tarha ka code aajaye
+Example:
+	n = 5                      
+	m = 10
+	print(n + m)
+	for i in range(0, n)
+	   for j in range(0, m)
+	      for k in range(0, n)
+	        print('hello')
+is ma humary pass n*m*n (ya n*n*n bhi kehsakty hay)
+
+	Logarithmic Time Complexity
+Is ka program ma linearly value nahi barhti value half hote rahy gi (example = 10, 5, 2, 1) 
+is ma humri example while loop ki hay
+Example:
+	n = 1
+	while (i < 10)
+	  print('hello')
+	  i = i*2         yaha humary pass Hello 4 time print hoga  or is ma humary pass bigO  O(logn) aei ga agr hum loop ma 3 sa multiply karty hay to (log3) aei ga
+
+DSA ma ap jo bhi questions karo gay to wo kahi na kahi sa array sa touch kary gay
+Array ki 2 special property hoti hay 
+1) Aik property to ya hay ka is ma jo memory alocate karwao gay to contigeous hoge
+2) Is ma jo element store kar wao gay wo similar type of element hongay is ko traditional array bhi kehty hay
+   python ma array Homogenous hongay ya hetrogenous 
+1) Homogenous mean ke sary ka sary element similar hongay (agr integer ka array banay gay to sary element integer, float hongay) ya numeric hongay
+python ma array dynamic hota hay is ka size kam ya ziada automatically kar sakty hay alag sa memory managment ki zarort nahi perhti
+C ya C++ ma array ka size batana perhta hay
+python ma array likhny ke liay import karna perhta hay 
+import ke bad apko module batana perhta hay 
+import ke saat hum is ko (as arr) agr de to code karty huay humy array nahi likhna pary ga just arr hi likhy gay (import array OR import array as arr OR from array import *) last wala sab ke liay valid hay mean ke sab code chaly gay 
+
+time = 1: 36: 30
+                                
