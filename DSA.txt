@@ -66,7 +66,9 @@ python ma array dynamic hota hay is ka size kam ya ziada automatically kar sakty
 C ya C++ ma array ka size batana perhta hay
 python ma array likhny ke liay import karna perhta hay 
 import ke bad apko module batana perhta hay 
-import ke saat hum is ko (as arr) agr de to code karty huay humy array nahi likhna pary ga just arr hi likhy gay (import array OR import array as arr OR from array import *) last wala sab ke liay valid hay mean ke sab code chaly gay 
+import ke saat hum is ko (as arr) agr de to code karty huay humy array nahi likhna pary ga just arr hi likhy gay (import array OR import array as arr OR from array import *) last wala sab ke liay valid hay mean ke sab code chaly gay
+Humary pass array ma bohat sary concept hay (Append, reverse, insery, replace, delete, remove)
+Is ma humary pass slicing ka concept bhi hota hay slicing ko karny ke liay apka pass 2 index hongay (start: end) is ma end index ki value nahi aei ge
 
-time = 1: 36: 30
+time = 2: 01: 15
                                 
