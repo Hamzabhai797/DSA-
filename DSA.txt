@@ -70,5 +70,15 @@ import ke saat hum is ko (as arr) agr de to code karty huay humy array nahi likh
 Humary pass array ma bohat sary concept hay (Append, reverse, insery, replace, delete, remove)
 Is ma humary pass slicing ka concept bhi hota hay slicing ko karny ke liay apka pass 2 index hongay (start: end) is ma end index ki value nahi aei ge
 
-time = 2: 01: 15
+Agr humy multi dimentional array banana hay jesy ke 2D, 3D to hum array module ma nahi bana sakty is ke liay NUMPY ka use hoga
+NUMPY install karny ka cmd(pip install numpy)
+numpy sa apko ya benifit hoga ka wo array ko hetrogenious banany ki facility deta hay (ya facility [c, c++, java] ma nhi hay) ya just python ma hay
+is ma humary pass (linspace, arange, zeros, once, full) types hote hay
+
+
+			Multi dimentional Array
+Zero dimentional array ma humary pass aik hi element hoga
+2 dimentional array ka matlab it is a collection of one dimentional array
+3 dimentional array ka matlab it is a collection of two dimentional array
+time = 2: 17: 40
                                 
