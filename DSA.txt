@@ -80,5 +80,18 @@ is ma humary pass (linspace, arange, zeros, once, full) types hote hay
 Zero dimentional array ma humary pass aik hi element hoga
 2 dimentional array ka matlab it is a collection of one dimentional array
 3 dimentional array ka matlab it is a collection of two dimentional array
-time = 2: 17: 40
+
+
+
+
+									linked List
+linked list linear form ma data ko store karny ka structure hay (linear data = 10, 20, 30) (Non-linear = tree form)
+linked list apko aik option provide karta hay jis sa ap run time memory alocate karwa sakty hoo
+
+			singly lined list
+is list ma humary pass aik node hota hay jo 2 blocks (data, pointer) pa mushtamil hota hay but pointer python ma nhi hota
+singly linked list (first block 2nd block sa connected 2nd block 3rd sa connected) is ko  hum singly linked list kehty hay
+is ko extend bhi karsakty hay jab tak apki memory khatm nahi hote us waqat tak hum new block create kar  sakty hay delete and insrtion , sorting, searching 
+is ma hum reverse nahi ja sakty reverse jany ke liay doubly linked list kaam aata hay
+time = 3: 28: 00
                                 
